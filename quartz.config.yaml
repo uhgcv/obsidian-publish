@@ -14,8 +14,7 @@ configuration:
     - private
     - templates
   theme:
-    fontOrigin: system
-    cdnCaching: false
+    fontOrigin: local
     typography:
       header: "PingFang SC, Microsoft YaHei, Hiragino Sans GB, sans-serif"
       body: "PingFang SC, Microsoft YaHei, Hiragino Sans GB, sans-serif"
