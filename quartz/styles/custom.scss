@@ -1,3 +1,8 @@
 @use "./variables.scss" as *;
 
-// put your custom CSS here!
+:root {
+  --headerFont: "PingFang SC", "Microsoft YaHei", "Hiragino Sans GB", "Noto Sans CJK SC", sans-serif;
+  --bodyFont: "PingFang SC", "Microsoft YaHei", "Hiragino Sans GB", "Noto Sans CJK SC", sans-serif;
+  --codeFont: "Consolas", "Courier New", "Source Code Pro", monospace;
+  --titleFont: "PingFang SC", "Microsoft YaHei", "Hiragino Sans GB", "Noto Sans CJK SC", sans-serif;
+}
