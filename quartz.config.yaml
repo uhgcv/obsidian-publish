@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: 我的数字花园
+  pageTitle: 笔记分享
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
@@ -17,8 +17,8 @@ configuration:
     fontOrigin: googleFonts
     cdnCaching: true
     typography:
-      header: Schibsted Grotesk
-      body: Source Sans Pro
+      header: Noto Sans SC
+      body: Noto Sans SC
       code: IBM Plex Mono
     colors:
       lightMode:
