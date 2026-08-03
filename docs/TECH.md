@@ -73,7 +73,15 @@ $content = $content -replace "---", "# title"
 ### 4. GitHub Pages 私有仓库限制
 免费版 Pages 只能从公开仓库部署。私有仓库需 Pro 或改用 Vercel。
 
-### 5. 中文编码损坏的原理与修复
+### 5. 谨慎性原则（最高优先级）
+
+**永远不要擅自操作超出用户明确指令范围的文件或目录。**
+
+- 分仓库架构的本意是保险：publish 是公开发布区，FMJKj001biJi 是原稿重地。任何时候不该绕过 publish 直接碰原稿
+- 只碰用户指定的文件/目录，绝不多动一个
+- PowerShell 的 Get-Content / Set-Content 在中文环境下会永久损坏文件编码。涉及中文文件的任何操作，必须显式 `-Encoding UTF8` 或使用 .NET API
+
+### 6. 中文编码损坏的原理与修复
 
 **现象**：Obsidian 里中文正常，但 Quartz 构建后显示 `�?` 乱码。
 
