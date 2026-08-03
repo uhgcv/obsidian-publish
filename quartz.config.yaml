@@ -14,12 +14,12 @@ configuration:
     - private
     - templates
   theme:
-    fontOrigin: googleFonts
-    cdnCaching: true
+    fontOrigin: system
+    cdnCaching: false
     typography:
-      header: Noto Sans SC
-      body: Noto Sans SC
-      code: IBM Plex Mono
+      header: "PingFang SC, Microsoft YaHei, Hiragino Sans GB, sans-serif"
+      body: "PingFang SC, Microsoft YaHei, Hiragino Sans GB, sans-serif"
+      code: "Consolas, Courier New, monospace"
     colors:
       lightMode:
         light: "#faf8f8"
