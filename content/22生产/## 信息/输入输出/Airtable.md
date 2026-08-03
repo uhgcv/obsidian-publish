@@ -1,0 +1,6 @@
+
+
+#Airtable API
+
+##n8n credential
+patRsjz0iTQPkd4Id.7c408cf5e580a41f5e2c7e0a94224c28b3421f1936b0da71742c229a6bc1e0d9
